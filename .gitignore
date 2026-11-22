@@ -1,0 +1,26 @@
+# --- Python virtual environment (recreated from requirements.txt) ---
+.venv/
+venv/
+env/
+
+# --- Personal data: NEVER upload these ---
+budget.db
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.csv
+
+# --- Secrets ---
+.streamlit/secrets.toml
+.env
+
+# --- Python cache / temporary files ---
+__pycache__/
+*.py[cod]
+
+# --- Editor / OS clutter ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
